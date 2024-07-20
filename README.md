@@ -22,13 +22,25 @@ Dataset ini berisi informasi tentang pasien dan apakah mereka memiliki diabetes 
 
 Pastikan Anda telah menginstal Streamlit dan pustaka Python yang diperlukan. Anda dapat menginstalnya menggunakan pip:
 
+Sebelum itu buat virtual environment terlebih dahulu
+
 ```bash
-pip install streamlit pandas numpy scikit-learn imbalanced-learn
+python -m venv .venv
+```
+
+```bash
+.\.venv\Scripts\activate
+```
+
+Lalu install package yang diperlukan
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### 2. Menjalankan Aplikasi
 
-Simpan kode aplikasi di atas dalam file bernama diabetes_app.py. Setelah itu, jalankan perintah berikut di terminal Anda:
+Simpan kode aplikasi di atas dalam file bernama app.py. Setelah itu, jalankan perintah berikut di terminal Anda:
 
 ```bash
 streamlit run app.py
