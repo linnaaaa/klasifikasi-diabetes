@@ -31,7 +31,7 @@ pip install streamlit pandas numpy scikit-learn imbalanced-learn
 Simpan kode aplikasi di atas dalam file bernama diabetes_app.py. Setelah itu, jalankan perintah berikut di terminal Anda:
 
 ```bash
-streamlit run diabetes_app.py
+streamlit run app.py
 ```
 
 ### 3. Menggunakan Aplikasi
